@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 
-import sr1 from "../Assets/Images/service/1.png";
-import sr2 from "../Assets/Images/service/2.png";
-import sr3 from "../Assets/Images/service/3.png";
-import sr4 from "../Assets/Images/service/4.png";
-import sr5 from "../Assets/Images/service/5.png";
-import sr6 from "../Assets/Images/service/6.png";
+// import sr1 from "../Assets/Images/service/1.png";
+// import sr2 from "../Assets/Images/service/2.png";
+// import sr3 from "../Assets/Images/service/3.png";
+// import sr4 from "../Assets/Images/service/4.png";
+// import sr5 from "../Assets/Images/service/5.png";
+// import sr6 from "../Assets/Images/service/6.png";
+
+import htmlLogo from "../Assets/Images/service/htmlcssLogo.png";
+import javascriptLogo from "../Assets/Images/service/javascriptLogo.png";
+import mongosqlLogo from "../Assets/Images/service/mongosqlLogo.png";
+import nodejsLogo from "../Assets/Images/service/nodejsLogo.png";
+import reactLogo from "../Assets/Images/service/reactLogo.png";
+import visualstudioLogo from "../Assets/Images/service/visualStudioLogo.png";
 
 class Service extends Component {
   render() {
@@ -28,11 +35,11 @@ class Service extends Component {
                       <div className="dots"></div>
                     </div>
                     <i>
-                      <img src={sr1} alt="" />
+                      <img src={htmlLogo} alt="" />
                     </i>
                   </div>
                   <div className="service-content">
-                    <h2>Web Design</h2>
+                    <h2>HTML &amp; CSS</h2>
                     <p>
                       {" "}
                       am an expert web designer and developer. Contrary to
@@ -51,11 +58,11 @@ class Service extends Component {
                       <div className="dots"></div>
                     </div>
                     <i>
-                      <img src={sr2} alt="" />
+                      <img src={javascriptLogo} alt="" />
                     </i>
                   </div>
                   <div className="service-content">
-                    <h2>Web Development</h2>
+                    <h2>Javascript</h2>
                     <p>
                       {" "}
                       am an expert web designer and developer. Contrary to
@@ -74,11 +81,11 @@ class Service extends Component {
                       <div className="dots"></div>
                     </div>
                     <i>
-                      <img src={sr3} alt="" />
+                      <img src={visualstudioLogo} alt="" />
                     </i>
                   </div>
                   <div className="service-content">
-                    <h2>Creative Design</h2>
+                    <h2>Visual Studio Code</h2>
                     <p>
                       {" "}
                       am an expert web designer and developer. Contrary to
@@ -97,11 +104,11 @@ class Service extends Component {
                       <div className="dots"></div>
                     </div>
                     <i>
-                      <img src={sr4} alt="" />
+                      <img src={nodejsLogo} alt="" />
                     </i>
                   </div>
                   <div className="service-content">
-                    <h2>Responsive Design</h2>
+                    <h2>Node js</h2>
                     <p>
                       {" "}
                       am an expert web designer and developer. Contrary to
@@ -120,11 +127,11 @@ class Service extends Component {
                       <div className="dots"></div>
                     </div>
                     <i>
-                      <img src={sr5} alt="" />
+                      <img src={mongosqlLogo} alt="" />
                     </i>
                   </div>
                   <div className="service-content">
-                    <h2>Branding Identity</h2>
+                    <h2>MySQL &amp; MongoDB</h2>
                     <p>
                       {" "}
                       am an expert web designer and developer. Contrary to
@@ -143,11 +150,11 @@ class Service extends Component {
                       <div className="dots"></div>
                     </div>
                     <i>
-                      <img src={sr6} alt="" />
+                      <img src={reactLogo} alt="" />
                     </i>
                   </div>
                   <div className="service-content">
-                    <h2>24/Support</h2>
+                    <h2>React</h2>
                     <p>
                       {" "}
                       am an expert web designer and developer. Contrary to

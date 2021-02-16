@@ -32,14 +32,21 @@ class Footer extends Component {
                     </Link>
                   </li> */}
                   <li>
-                    <Link to="/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/justin-gabriele-21331a1a7/"
+                    >
                       <i className="fa fa-linkedin"></i>
-                    </Link>
+                    </a>
+                    {/* <Link to="/">
+                    </Link> */}
                   </li>
                   <li>
-                    <Link to="/">
+                    <a target="_blank" href="https://github.com/gabrielejm">
                       <i className="fa fa-github"></i>
-                    </Link>
+                    </a>
+                    {/* <Link to="/">
+                    </Link> */}
                   </li>
                 </ul>
               </div>

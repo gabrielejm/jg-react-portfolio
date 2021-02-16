@@ -22,7 +22,7 @@ class Service extends Component {
         <div className="container">
           <div className="col-l2">
             <div className="section-title section-title2 text-center">
-              <span>What I am Expert In</span>
+              {/* <span>What I am Expert In</span> */}
               <h2>My Skills</h2>
             </div>
           </div>

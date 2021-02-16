@@ -31,7 +31,8 @@ class Header extends Component {
                 <span className="icon-bar"></span>
               </button>
               <Link className="navbar-brand" to="/">
-                <img src={Logo} alt="" />
+                {/* <img src={Logo} alt="" /> */}
+                <h3 style={{ color: "white" }}>J G</h3>
               </Link>
             </div>
             <div

@@ -31,12 +31,10 @@ class Banner extends Component {
             </div>
           </div>
         </div>
-        <div className="copy">
-          <p>React Developer</p>
-        </div>
+        <div className="copy">{/* <p>React Developer</p> */}</div>
         <div className="social-links">
           <ul>
-            <li>
+            {/* <li>
               <Link to="#">
                 <i className="fa fa-facebook"></i>
               </Link>
@@ -45,7 +43,7 @@ class Banner extends Component {
               <Link to="#">
                 <i className="fa fa-twitter"></i>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="#">
                 <i className="fa fa-linkedin"></i>
@@ -53,7 +51,7 @@ class Banner extends Component {
             </li>
             <li>
               <Link to="#">
-                <i className="fa fa-pinterest"></i>
+                <i className="fa fa-github"></i>
               </Link>
             </li>
           </ul>

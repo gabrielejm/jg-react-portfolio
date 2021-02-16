@@ -31,7 +31,9 @@ class Banner extends Component {
             </div>
           </div>
         </div>
-        <div className="copy">{/* <p>React Developer</p> */}</div>
+        <div className="copy">
+          <p>Justin Gabriele</p>
+        </div>
         <div className="social-links">
           <ul>
             {/* <li>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Resume from "../Assets/Images/gallery/Resume.pdf";
 
 import ContactForm from "./form";
 
@@ -15,9 +16,24 @@ class Contact extends Component {
               <div className="contact-page-item">
                 <h2>Contact</h2>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC, making it over 2000 years old.
+                  If you're interested in getting to know me, please contact me
+                  by phone or email; or check out my{" "}
+                  <a target="_blank" href="https://github.com/gabrielejm">
+                    Github
+                  </a>{" "}
+                  or{" "}
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/justin-gabriele-21331a1a7/"
+                  >
+                    LinkedIn
+                  </a>
+                  .<br></br>
+                  Check out my{" "}
+                  <a target="_blank" href={Resume}>
+                    Resume
+                  </a>
+                  !
                 </p>
                 <div className="adress">
                   <h3>Address</h3>

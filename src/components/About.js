@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import aboutImg from "../Assets/Images/about.png";
 import { Link } from "react-router-dom";
+import Resume from "../Assets/Images/gallery/Resume.pdf";
 
 class About extends Component {
   render() {
@@ -26,7 +27,7 @@ class About extends Component {
                   <p className="mt-20">
                     I'm eager to translate my skills in customer satisfaction,
                     team collaboration, and problem solving into a career in web
-                    development. I relentlessly pursue what I want and have a
+                    development. I relentlessly pursue my goals and have a
                     strong belief in training both the body and the mind.
                   </p>
                   <Link to="/" className="template-btn">

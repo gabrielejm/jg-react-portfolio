@@ -29,7 +29,7 @@ class Contact extends Component {
                     LinkedIn
                   </a>
                   .<br></br>
-                  Check out my{" "}
+                  Download my{" "}
                   <a target="_blank" href={Resume}>
                     Resume
                   </a>

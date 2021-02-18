@@ -9,6 +9,15 @@ import Weatherdash from "../Assets/Images/gallery/weatherdashpic.PNG";
 import { Link } from "react-router-dom";
 
 class Porfolio extends Component {
+  linkStyle = {
+    textAlign: "center",
+    textDecoration: "underline",
+  };
+
+  descriptionStyle = {
+    textAlign: "center",
+  };
+
   state = {
     onWebDesign: false,
     onPrintDesign: false,
@@ -85,16 +94,18 @@ class Porfolio extends Component {
               </div>
               <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary">
                 <div
-                  className={
-                    this.state.onPrintDesign
-                      ? "grid active"
-                      : "grid" && this.state.onWebApp
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
+                // className={
+                //   this.state.onPrintDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onWebApp
+                //     ? "grid active"
+                //     : "grid" && this.state.isOpen
+                //     ? "grid"
+                //     : "grid open"
+                // }
                 >
+                  <p style={this.linkStyle}>Pokemon Battle Royale</p>
+
                   <img
                     src={Pokebattle}
                     className="img img-responsive"
@@ -170,6 +181,7 @@ class Porfolio extends Component {
                       : "grid open"
                   }
                 >
+                  <p style={this.linkStyle}>Weather Dashboard</p>
                   <img
                     src={Weatherdash}
                     alt=""

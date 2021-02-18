@@ -30,9 +30,14 @@ class About extends Component {
                     development. I relentlessly pursue my goals and have a
                     strong belief in training both the body and the mind.
                   </p>
-                  <Link to="/" className="template-btn">
+                  <a
+                    download
+                    target="_blank"
+                    href={Resume}
+                    className="template-btn"
+                  >
                     Download Resume
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

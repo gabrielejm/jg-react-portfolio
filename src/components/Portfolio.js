@@ -107,9 +107,6 @@ class Porfolio extends Component {
                     >
                       <i className="fa fa-plus" aria-hidden="true"></i>
                     </a>
-
-                    {/* <Link to="/" className="view-icon">
-                    </Link> */}
                   </div>
                 </div>
                 <div
@@ -135,9 +132,6 @@ class Porfolio extends Component {
                     >
                       <i className="fa fa-plus" aria-hidden="true"></i>
                     </a>
-                    {/* <Link to="/" className="view-icon">
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link> */}
                   </div>
                 </div>
                 <div
@@ -163,9 +157,6 @@ class Porfolio extends Component {
                     >
                       <i className="fa fa-plus" aria-hidden="true"></i>
                     </a>
-                    {/* <Link to="/" className="view-icon">
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link> */}
                   </div>
                 </div>
                 <div
@@ -191,9 +182,6 @@ class Porfolio extends Component {
                     >
                       <i className="fa fa-plus" aria-hidden="true"></i>
                     </a>
-                    {/* <Link to="/" className="view-icon">
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link> */}
                   </div>
                 </div>
                 <div

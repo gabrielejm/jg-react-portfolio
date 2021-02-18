@@ -54,8 +54,8 @@ class Footer extends Component {
             <div className="col-12">
               <div className="footer-sub">
                 <p>
-                  <i className="fa fa-copyright"></i>Copyright{" "}
-                  <span> J. Gabriele</span>
+                  <i className="fa fa-copyright"></i>
+                  <span> 2021 | J. Gabriele</span>
                 </p>
               </div>
             </div>

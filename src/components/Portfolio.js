@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Gallery_1 from "../Assets/Images/gallery/img-1.jpg";
-import Gallery_2 from "../Assets/Images/gallery/img-2.jpg";
 import Gallery_3 from "../Assets/Images/gallery/img-3.jpg";
 import Gallery_4 from "../Assets/Images/gallery/img-4.jpg";
-import Gallery_5 from "../Assets/Images/gallery/img-5.jpg";
-import Gallery_6 from "../Assets/Images/gallery/img-6.jpg";
+import Pokebattle from "../Assets/Images/gallery/pokemonbattlepic.PNG";
+import Dayplanner from "../Assets/Images/gallery/dayplannerpic.PNG";
+import Readmegenerator from "../Assets/Images/gallery/readmegeneratorpic.PNG";
+import Weatherdash from "../Assets/Images/gallery/weatherdashpic.PNG";
+
 import { Link } from "react-router-dom";
 
 class Porfolio extends Component {
@@ -81,50 +82,6 @@ class Porfolio extends Component {
                   <span>Portfolio</span>
                   <h2>My Projects</h2>
                 </div>
-                {/* <ul>
-                  <li>
-                    <Link
-                      data-filter="*"
-                      to="/"
-                      className="current"
-                      onClick={allElement}
-                    >
-                      All
-                    </Link>
-                  </li>
-                  <li>
-                    <Link data-filter=".Web-Design" to="/" onClick={webDesign}>
-                      Web Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      data-filter=".Print-Design"
-                      to="/"
-                      onClick={printDesign}
-                    >
-                      Print Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      data-filter=".Web-Application"
-                      to="/"
-                      onClick={webApp}
-                    >
-                      Web Application
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      data-filter=".Photography"
-                      to="/"
-                      onClick={Photography}
-                    >
-                      Photography
-                    </Link>
-                  </li>
-                </ul> */}
               </div>
               <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary">
                 <div
@@ -138,11 +95,21 @@ class Porfolio extends Component {
                       : "grid open"
                   }
                 >
-                  <img src={Gallery_1} className="img img-responsive" alt="" />
+                  <img
+                    src={Pokebattle}
+                    className="img img-responsive"
+                    alt="pokemonbattle"
+                  />
                   <div className="icon">
-                    <Link to="/" className="view-icon">
+                    <a
+                      target="_blank"
+                      href="https://gabrielejm.github.io/Pokmon-Battle-Royale/"
+                    >
                       <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link>
+                    </a>
+
+                    {/* <Link to="/" className="view-icon">
+                    </Link> */}
                   </div>
                 </div>
                 <div
@@ -160,11 +127,17 @@ class Porfolio extends Component {
                       : "grid open"
                   }
                 >
-                  <img src={Gallery_2} alt="" className="img img-responsive" />
+                  <img src={Dayplanner} alt="" className="img img-responsive" />
                   <div className="icon">
-                    <Link to="/" className="view-icon">
+                    <a
+                      target="_blank"
+                      href="https://gabrielejm.github.io/Day-Planner/"
+                    >
                       <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link>
+                    </a>
+                    {/* <Link to="/" className="view-icon">
+                      <i className="fa fa-plus" aria-hidden="true"></i>
+                    </Link> */}
                   </div>
                 </div>
                 <div
@@ -178,11 +151,21 @@ class Porfolio extends Component {
                       : "grid open"
                   }
                 >
-                  <img src={Gallery_6} alt="" className="img img-responsive" />
+                  <img
+                    src={Readmegenerator}
+                    alt=""
+                    className="img img-responsive"
+                  />
                   <div className="icon">
-                    <Link to="/" className="view-icon">
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1fhS9kzTlrW7omEPK3V1S7cSq7k7BLgAv/view"
+                    >
                       <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link>
+                    </a>
+                    {/* <Link to="/" className="view-icon">
+                      <i className="fa fa-plus" aria-hidden="true"></i>
+                    </Link> */}
                   </div>
                 </div>
                 <div
@@ -196,11 +179,21 @@ class Porfolio extends Component {
                       : "grid open"
                   }
                 >
-                  <img src={Gallery_5} alt="" className="img img-responsive" />
+                  <img
+                    src={Weatherdash}
+                    alt=""
+                    className="img img-responsive"
+                  />
                   <div className="icon">
-                    <Link to="/" className="view-icon">
+                    <a
+                      target="_blank"
+                      href="https://gabrielejm.github.io/Weather-Dashboard/"
+                    >
                       <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link>
+                    </a>
+                    {/* <Link to="/" className="view-icon">
+                      <i className="fa fa-plus" aria-hidden="true"></i>
+                    </Link> */}
                   </div>
                 </div>
                 <div

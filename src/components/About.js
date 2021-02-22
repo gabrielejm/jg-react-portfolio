@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import aboutImg from "../Assets/Images/about.png";
 import { Link } from "react-router-dom";
 import Resume from "../Assets/Images/gallery/Resume.pdf";
+import PortfolioPic from "../Assets/Images/gallery/portfolioPic.jpeg";
 
 class About extends Component {
   render() {
@@ -13,7 +14,7 @@ class About extends Component {
             <div className="row">
               <div className="col-lg-6">
                 <div className="about-img">
-                  <img src={aboutImg} alt="" />
+                  <img src={PortfolioPic} alt="" />
                 </div>
               </div>
               <div className="col-lg-6">

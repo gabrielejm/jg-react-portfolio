@@ -8,15 +8,19 @@ import Weatherdash from "../Assets/Images/gallery/weatherdashpic.PNG";
 
 import { Link } from "react-router-dom";
 
-class Porfolio extends Component {
-  linkStyle = {
-    textAlign: "center",
-    textDecoration: "underline",
-  };
+// const Portfolio = () => {
+//   return <></>;
+// };
 
-  descriptionStyle = {
-    textAlign: "center",
-  };
+class Porfolio extends Component {
+  // linkStyle = {
+  //   textAlign: "center",
+  //   textDecoration: "underline",
+  // };
+
+  // descriptionStyle = {
+  //   textAlign: "center",
+  // };
 
   state = {
     onWebDesign: false,
@@ -104,8 +108,6 @@ class Porfolio extends Component {
                 //     : "grid open"
                 // }
                 >
-                  <p style={this.linkStyle}>Pokemon Battle Royale</p>
-
                   <img
                     src={Pokebattle}
                     className="img img-responsive"
@@ -121,19 +123,19 @@ class Porfolio extends Component {
                   </div>
                 </div>
                 <div
-                  className={
-                    this.state.onWebDesign
-                      ? "grid active"
-                      : "grid" && this.state.onPrintDesign
-                      ? "grid active"
-                      : "grid" && this.state.onWebApp
-                      ? "grid active"
-                      : "grid" && this.state.onPhotography
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
+                // className={
+                //   this.state.onWebDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onPrintDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onWebApp
+                //     ? "grid active"
+                //     : "grid" && this.state.onPhotography
+                //     ? "grid active"
+                //     : "grid" && this.state.isOpen
+                //     ? "grid"
+                //     : "grid open"
+                // }
                 >
                   <img src={Dayplanner} alt="" className="img img-responsive" />
                   <div className="icon">
@@ -146,15 +148,15 @@ class Porfolio extends Component {
                   </div>
                 </div>
                 <div
-                  className={
-                    this.state.onWebDesign
-                      ? "grid active"
-                      : "grid" && this.state.onWebApp
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
+                // className={
+                //   this.state.onWebDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onWebApp
+                //     ? "grid active"
+                //     : "grid" && this.state.isOpen
+                //     ? "grid"
+                //     : "grid open"
+                // }
                 >
                   <img
                     src={Readmegenerator}
@@ -171,17 +173,16 @@ class Porfolio extends Component {
                   </div>
                 </div>
                 <div
-                  className={
-                    this.state.onPrintDesign
-                      ? "grid active"
-                      : "grid" && this.state.onPhotography
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
+                // className={
+                //   this.state.onPrintDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onPhotography
+                //     ? "grid active"
+                //     : "grid" && this.state.isOpen
+                //     ? "grid"
+                //     : "grid open"
+                // }
                 >
-                  <p style={this.linkStyle}>Weather Dashboard</p>
                   <img
                     src={Weatherdash}
                     alt=""
@@ -197,15 +198,15 @@ class Porfolio extends Component {
                   </div>
                 </div>
                 <div
-                  className={
-                    this.state.onPrintDesign
-                      ? "grid active"
-                      : "grid" && this.state.onPhotography
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
+                // className={
+                //   this.state.onPrintDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onPhotography
+                //     ? "grid active"
+                //     : "grid" && this.state.isOpen
+                //     ? "grid"
+                //     : "grid open"
+                // }
                 >
                   <img src={Gallery_3} alt="" className="img img-responsive" />
                   <div className="icon">
@@ -215,17 +216,17 @@ class Porfolio extends Component {
                   </div>
                 </div>
                 <div
-                  className={
-                    this.state.onPrintDesign
-                      ? "grid active"
-                      : "grid" && this.state.onWebApp
-                      ? "grid active"
-                      : "grid" && this.state.onPhotography
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
+                // className={
+                //   this.state.onPrintDesign
+                //     ? "grid active"
+                //     : "grid" && this.state.onWebApp
+                //     ? "grid active"
+                //     : "grid" && this.state.onPhotography
+                //     ? "grid active"
+                //     : "grid" && this.state.isOpen
+                //     ? "grid"
+                //     : "grid open"
+                // }
                 >
                   <img src={Gallery_4} alt="" className="img img-responsive" />
                   <div className="icon">

@@ -34,23 +34,7 @@ class Banner extends Component {
         <div className="copy">
           <p>Justin Gabriele</p>
         </div>
-        <div className="social-links">
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/justin-gabriele-21331a1a7/"
-              >
-                <i className="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://github.com/gabrielejm">
-                <i className="fa fa-github"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+
         <div className="white_svg">
           <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
             <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>

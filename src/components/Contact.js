@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Resume from "../Assets/Images/gallery/Resume.pdf";
+import "../css/Contact.css";
 
 import ContactForm from "./form";
 
@@ -11,7 +12,7 @@ class Contact extends Component {
         className="contact-page-area section-padding go-contact-area"
       >
         <div className="container">
-          <div className="row">
+          <div id="contactCustom" className="row">
             <div className="col-lg-5 col-md-12 col-sm-12">
               <div className="contact-page-item">
                 <h2>Contact</h2>
@@ -51,14 +52,14 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-md-12 col-sm-12">
+            {/* <div className="col-lg-7 col-md-12 col-sm-12">
               <div className="contact-area contact-area-2 contact-area-3">
                 <h2>Quick Contact Form</h2>
                 <div className="contact-form">
                   <ContactForm />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <div className="row">
             <div className="col col-xs-12">

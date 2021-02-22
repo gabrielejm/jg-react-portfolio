@@ -97,12 +97,7 @@ class Service extends Component {
                   </div>
                   <div className="service-content">
                     <h2>Node js</h2>
-                    <p>
-                      {" "}
-                      am an expert web designer and developer. Contrary to
-                      popular belief, Lorem Ipsum is not simply random text. It
-                      has
-                    </p>
+                    <p> </p>
                   </div>
                 </div>
               </div>
@@ -138,7 +133,11 @@ class Service extends Component {
                   </div>
                   <div className="service-content">
                     <h2>React</h2>
-                    <p> React Router, Context API, Redux</p>
+                    <p>
+                      {" "}
+                      React Router, Virtual DOM, State, Context API, Redux, JSX,
+                      Hooks
+                    </p>
                   </div>
                 </div>
               </div>

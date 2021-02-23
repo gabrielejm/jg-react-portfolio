@@ -97,117 +97,85 @@ class Porfolio extends Component {
                 </div>
               </div>
               <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary">
-                <div
-                // className={
-                //   this.state.onPrintDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onWebApp
-                //     ? "grid active"
-                //     : "grid" && this.state.isOpen
-                //     ? "grid"
-                //     : "grid open"
-                // }
-                >
-                  <img
-                    src={Pokebattle}
-                    className="img img-responsive"
-                    alt="pokemonbattle"
-                  />
-                  <div className="icon">
-                    <a
-                      target="_blank"
-                      href="https://gabrielejm.github.io/Pokmon-Battle-Royale/"
-                    >
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                  </div>
+                <div class="project">
+                  <a
+                    target="_blank"
+                    href="https://github.com/gabrielejm/Pokmon-Battle-Royale"
+                  >
+                    <p>Pokemon Battle Royale</p>
+                  </a>
+                  <p>Pokemon battling game</p>
+                  <a
+                    target="_blank"
+                    href="https://gabrielejm.github.io/Pokmon-Battle-Royale/"
+                  >
+                    <img
+                      src={Pokebattle}
+                      className="img img-responsive"
+                      alt="pokemonbattle"
+                    />
+                  </a>
                 </div>
-                <div
-                // className={
-                //   this.state.onWebDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onPrintDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onWebApp
-                //     ? "grid active"
-                //     : "grid" && this.state.onPhotography
-                //     ? "grid active"
-                //     : "grid" && this.state.isOpen
-                //     ? "grid"
-                //     : "grid open"
-                // }
-                >
-                  <img src={Dayplanner} alt="" className="img img-responsive" />
-                  <div className="icon">
-                    <a
-                      target="_blank"
-                      href="https://gabrielejm.github.io/Day-Planner/"
-                    >
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                  </div>
+                <div class="project">
+                  <a
+                    target="_blank"
+                    href="https://github.com/gabrielejm/Day-Planner"
+                  >
+                    <p>Day Planner</p>
+                  </a>
+                  <p>Plan your day!</p>
+                  <a
+                    target="_blank"
+                    href="https://gabrielejm.github.io/Day-Planner/"
+                  >
+                    <img
+                      src={Dayplanner}
+                      alt=""
+                      className="img img-responsive"
+                    />
+                  </a>
                 </div>
-                <div
-                // className={
-                //   this.state.onWebDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onWebApp
-                //     ? "grid active"
-                //     : "grid" && this.state.isOpen
-                //     ? "grid"
-                //     : "grid open"
-                // }
-                >
-                  <img
-                    src={Readmegenerator}
-                    alt=""
-                    className="img img-responsive"
-                  />
-                  <div className="icon">
-                    <a
-                      target="_blank"
-                      href="https://drive.google.com/file/d/1fhS9kzTlrW7omEPK3V1S7cSq7k7BLgAv/view"
-                    >
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                  </div>
+                <div class="project">
+                  <a
+                    target="_blank"
+                    href="https://github.com/gabrielejm/README-Generator"
+                  >
+                    <p>Readme Generator</p>
+                  </a>
+                  <p>Easily generate a Readme!</p>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1fhS9kzTlrW7omEPK3V1S7cSq7k7BLgAv/view"
+                  >
+                    <img
+                      src={Readmegenerator}
+                      alt=""
+                      className="img img-responsive"
+                    />
+                  </a>
                 </div>
-                <div
-                // className={
-                //   this.state.onPrintDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onPhotography
-                //     ? "grid active"
-                //     : "grid" && this.state.isOpen
-                //     ? "grid"
-                //     : "grid open"
-                // }
-                >
-                  <img
-                    src={Weatherdash}
-                    alt=""
-                    className="img img-responsive"
-                  />
-                  <div className="icon">
-                    <a
-                      target="_blank"
-                      href="https://gabrielejm.github.io/Weather-Dashboard/"
-                    >
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                  </div>
+                <div class="project">
+                  <a
+                    target="_blank"
+                    href="https://github.com/gabrielejm/Weather-Dashboard"
+                  >
+                    <p>Weather Dashboard</p>
+                  </a>
+                  <p>Check the weather of any city in the world</p>
+                  <a
+                    target="_blank"
+                    href="https://gabrielejm.github.io/Weather-Dashboard/"
+                  >
+                    <img
+                      src={Weatherdash}
+                      alt=""
+                      className="img img-responsive"
+                    />
+                  </a>
                 </div>
-                <div
-                // className={
-                //   this.state.onPrintDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onPhotography
-                //     ? "grid active"
-                //     : "grid" && this.state.isOpen
-                //     ? "grid"
-                //     : "grid open"
-                // }
-                >
+                {/* <div class="project">
+                  <p>Pokemon Battle Royale</p>
+                  <p>Pokemon battling game</p>
                   <img src={Gallery_3} alt="" className="img img-responsive" />
                   <div className="icon">
                     <Link to="/" className="view-icon">
@@ -215,26 +183,16 @@ class Porfolio extends Component {
                     </Link>
                   </div>
                 </div>
-                <div
-                // className={
-                //   this.state.onPrintDesign
-                //     ? "grid active"
-                //     : "grid" && this.state.onWebApp
-                //     ? "grid active"
-                //     : "grid" && this.state.onPhotography
-                //     ? "grid active"
-                //     : "grid" && this.state.isOpen
-                //     ? "grid"
-                //     : "grid open"
-                // }
-                >
+                <div class="project">
+                  <p>Pokemon Battle Royale</p>
+                  <p>Pokemon battling game</p>
                   <img src={Gallery_4} alt="" className="img img-responsive" />
                   <div className="icon">
                     <Link to="/" className="view-icon">
                       <i className="fa fa-plus" aria-hidden="true"></i>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -6,6 +6,10 @@ import Home_3 from "../Assets/Images/home/img-4.jpg";
 import Home_4 from "../Assets/Images/home/img-5.jpg";
 import Home_5 from "../Assets/Images/home/img-2.jpg";
 import Home_6 from "../Assets/Images/home/img-3.jpg";
+import Home from "../Assets/Images/gallery/menuHome.PNG";
+import AboutMe from "../Assets/Images/gallery/menuAboutMe.PNG";
+import Skills from "../Assets/Images/gallery/menuSkills.PNG";
+import Projects from "../Assets/Images/gallery/menuProjects.PNG";
 
 import { Link } from "react-router-dom";
 
@@ -58,22 +62,22 @@ class Header extends Component {
               <ul className="nav navbar-nav">
                 <li className="home">
                   <a href="#home">
-                    <img src={Home_1} alt="" />
+                    <img src={Home} alt="" />
                   </a>
                 </li>
                 <li className="about">
                   <a href="#about">
-                    <img src={Home_2} alt="" />
+                    <img src={AboutMe} alt="" />
                   </a>
                 </li>
                 <li className="service">
                   <a href="#service">
-                    <img src={Home_3} alt="" />
+                    <img src={Skills} alt="" />
                   </a>
                 </li>
                 <li className="protfolio">
                   <a href="#protfolio">
-                    <img src={Home_4} alt="" />
+                    <img src={Projects} alt="" />
                   </a>
                 </li>
                 {/* <li className="blog">

@@ -42,7 +42,8 @@ class Service extends Component {
                     <h2>HTML &amp; CSS</h2>
                     <p>
                       {" "}
-                      HTML5, CSS3, Responsive Web Design, Flex box, Bootstrap
+                      HTML5, CSS3, Responsive Web Design, Flex box, Bootstrap,
+                      Material UI
                     </p>
                   </div>
                 </div>
@@ -61,7 +62,11 @@ class Service extends Component {
                   </div>
                   <div className="service-content">
                     <h2>Javascript</h2>
-                    <p> ES6+, JQuery,</p>
+                    <p>
+                      {" "}
+                      ES6+, JQuery, React, Version Control/Git, Debugging,
+                      Testing/Jest, REST APIS, NPM,
+                    </p>
                   </div>
                 </div>
               </div>
@@ -97,7 +102,7 @@ class Service extends Component {
                   </div>
                   <div className="service-content">
                     <h2>Node js</h2>
-                    <p> </p>
+                    <p>Express.js, Babel, Webpack, Passport.js</p>
                   </div>
                 </div>
               </div>
@@ -115,7 +120,7 @@ class Service extends Component {
                   </div>
                   <div className="service-content">
                     <h2>MySQL &amp; MongoDB</h2>
-                    <p> Sequelize, ORM,</p>
+                    <p> Sequelize, MySQL Workbench, ORM, MongoDB Atlas</p>
                   </div>
                 </div>
               </div>

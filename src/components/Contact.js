@@ -13,7 +13,7 @@ class Contact extends Component {
       >
         <div className="container">
           <div id="contactCustom" className="row">
-            <div className="col-lg-5 col-md-12 col-sm-12">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="contact-page-item">
                 <h2>Contact</h2>
                 <p>

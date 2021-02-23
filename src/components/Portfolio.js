@@ -104,7 +104,12 @@ class Porfolio extends Component {
                   >
                     <p>Pokemon Battle Royale</p>
                   </a>
-                  <p>Pokemon battling game</p>
+                  <p>
+                    A Pokemon battling game; search for your preferred Pokemon
+                    using the PokeAPI and battle against the AI's randomly
+                    selected Pokemon. The Pokemon's stats are compared to
+                    determine a winner. The last trainer standing wins!
+                  </p>
                   <a
                     target="_blank"
                     href="https://gabrielejm.github.io/Pokmon-Battle-Royale/"
@@ -123,7 +128,14 @@ class Porfolio extends Component {
                   >
                     <p>Day Planner</p>
                   </a>
-                  <p>Plan your day!</p>
+                  <p>
+                    A day planner app useful for planning a 9-5 workday using
+                    1-hour timeblocks. The timeblocks will change color based on
+                    past, present, and future time (grey for past, red for
+                    present, green for future). The user can save input text
+                    relating to their day's activites and return later to view
+                    it.
+                  </p>
                   <a
                     target="_blank"
                     href="https://gabrielejm.github.io/Day-Planner/"
@@ -142,7 +154,11 @@ class Porfolio extends Component {
                   >
                     <p>Readme Generator</p>
                   </a>
-                  <p>Easily generate a Readme!</p>
+                  <p>
+                    This app will make generating a Readme for your project
+                    easy! The user is prompted some questions using Inquirer,
+                    then the app generates a Readme using the user's input.
+                  </p>
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/1fhS9kzTlrW7omEPK3V1S7cSq7k7BLgAv/view"
@@ -161,7 +177,14 @@ class Porfolio extends Component {
                   >
                     <p>Weather Dashboard</p>
                   </a>
-                  <p>Check the weather of any city in the world</p>
+                  <p>
+                    A weather dashboard app that, when the user searches for a
+                    city, will give the user a weather forecast for the current
+                    day as well as a 5-day forecast for the searched city. When
+                    a city is searched for, it is added to the search history
+                    and will remain if the user refreshes or returns to the
+                    page.
+                  </p>
                   <a
                     target="_blank"
                     href="https://gabrielejm.github.io/Weather-Dashboard/"

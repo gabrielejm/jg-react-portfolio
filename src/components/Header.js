@@ -10,6 +10,7 @@ import Home from "../Assets/Images/gallery/menuHome.PNG";
 import AboutMe from "../Assets/Images/gallery/menuAboutMe.PNG";
 import Skills from "../Assets/Images/gallery/menuSkills.PNG";
 import Projects from "../Assets/Images/gallery/menuProjects.PNG";
+import Contact from "../Assets/Images/gallery/menuContact.PNG";
 
 import { Link } from "react-router-dom";
 
@@ -87,7 +88,7 @@ class Header extends Component {
                 </li> */}
                 <li className="contact">
                   <a href="#contact">
-                    <img src={Home_6} alt="" />
+                    <img src={Contact} alt="" />
                   </a>
                 </li>
               </ul>

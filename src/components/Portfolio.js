@@ -5,6 +5,7 @@ import Pokebattle from "../Assets/Images/gallery/pokemonbattlepic.PNG";
 import Dayplanner from "../Assets/Images/gallery/dayplannerpic.PNG";
 import Readmegenerator from "../Assets/Images/gallery/readmegeneratorpic.PNG";
 import Weatherdash from "../Assets/Images/gallery/weatherdashpic.PNG";
+import EscapeGame from "../Assets/Images/gallery/EscapeGameResized.PNG";
 
 import { Link } from "react-router-dom";
 
@@ -196,17 +197,35 @@ class Porfolio extends Component {
                     />
                   </a>
                 </div>
-                {/* <div class="project">
-                  <p>Pokemon Battle Royale</p>
-                  <p>Pokemon battling game</p>
-                  <img src={Gallery_3} alt="" className="img img-responsive" />
-                  <div className="icon">
-                    <Link to="/" className="view-icon">
-                      <i className="fa fa-plus" aria-hidden="true"></i>
-                    </Link>
-                  </div>
-                </div>
                 <div class="project">
+                  <a
+                    target="_blank"
+                    href="https://github.com/gabrielejm/EscapeGame"
+                  >
+                    <p>Escape Game</p>
+                  </a>
+                  <p>
+                    A timed Vampire-themed Escape Game in which the user will
+                    search for clues and solve puzzles in order to escape before
+                    the timer runs out. The user must solve the puzzles in a
+                    specific order and will obtain clues by clicking around and
+                    exploring. This is a group project utilizing the agile
+                    development methodology. Currently a work in progress; it is
+                    missing some features but is entirely playable from
+                    beginning to end.
+                  </p>
+                  <a
+                    target="_blank"
+                    href="https://escape-game2021.herokuapp.com/"
+                  >
+                    <img
+                      src={EscapeGame}
+                      alt=""
+                      className="img img-responsive"
+                    />
+                  </a>
+                </div>
+                {/* <div class="project">
                   <p>Pokemon Battle Royale</p>
                   <p>Pokemon battling game</p>
                   <img src={Gallery_4} alt="" className="img img-responsive" />

@@ -5,7 +5,7 @@ import Pokebattle from "../Assets/Images/gallery/pokemonbattlepic.PNG";
 import Dayplanner from "../Assets/Images/gallery/dayplannerpic.PNG";
 import Readmegenerator from "../Assets/Images/gallery/readmegeneratorpic.PNG";
 import Weatherdash from "../Assets/Images/gallery/weatherdashpic.PNG";
-import EscapeGame from "../Assets/Images/gallery/EscapeGameResized.PNG";
+import EscapeGame from "../Assets/Images/gallery/EscapeGameReal.PNG";
 
 import { Link } from "react-router-dom";
 

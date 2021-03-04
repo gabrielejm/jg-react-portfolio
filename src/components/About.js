@@ -21,15 +21,14 @@ class About extends Component {
                 <div className="about-content">
                   <h2>About Me</h2>
                   <p>
-                    Hey! My name is Justin Gabriele. I am an adaptive front-end
-                    web developer wtih a passion for creating accessible and
-                    lucrative web applications.
+                    Hi, my name is Justin Gabriele! I'm a Front-End Web
+                    Developer.
                   </p>
                   <p className="mt-20">
-                    I'm eager to translate my skills in customer satisfaction,
-                    team collaboration, and problem solving into a career in web
-                    development. I relentlessly pursue my goals and have a
-                    strong belief in training both the body and the mind.
+                    A passion for creating accessible, productive web
+                    applications and a background in customer service drives me
+                    to continuously challenge myself and strive to meet customer
+                    demands.
                   </p>
                   <a target="_blank" href={Resume} className="template-btn">
                     View Resume
